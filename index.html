@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/general.css">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+    <div class="container">
+        <!-- header -->
+        <div class="header">
+            <!-- upper part of the header -->
+            <div class="header-first">
+                <form>
+                    <ion-icon type="submit" name="search-outline" class="icon search"></ion-icon>
+                    <input type="text" id="search" name="search">
+                </form>
+                <div class="header-profile">
+                    <ion-icon class="icon bell" name="notifications-outline"></ion-icon>
+                    <img class="profile-first"src="profile.jpg" alt="profile picture of the user">
+                    <p class="profile-name-first">Bruno Salvadori</p>
+                </div>
+            </div>
+            <!-- lower part of the header -->
+            <div class="header-second">
+                <div class="profile-full">
+                    <img class="profile-second"src="profile.jpg" alt="user profile picture">
+                    <div class="profile-info" >
+                        <p class="greetings">Hi there,</p>
+                        <p class="profile-name">Bruno Salvadori (@unsplash)</p>
+                    </div>
+                </div>
+                <div class="profile-nav">
+                    <button class="btn">New</button>
+                    <button class="btn">Upload</button>
+                    <button class="btn">Share</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

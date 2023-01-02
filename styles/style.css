@@ -1,0 +1,58 @@
+
+.header{
+    background-color: aliceblue;
+}
+.header-first{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    gap: 50rem;
+    padding-top: 2rem;
+}
+    /* first side of the header */
+
+/* left side */
+form{
+    display: flex;
+    /* align-items: center; */
+    gap:1rem
+}
+
+.icon {
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor:pointer;
+    background-color: aliceblue;
+  }
+
+#search{
+    width: 50rem;
+    height: 3rem;
+    background-color: rgb(231, 231, 231);
+    border: none;
+    border-radius: 1rem;
+    padding-left: 1rem;
+}
+
+/* right side */
+
+.header-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.profile-first{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+}
+
+.profile-name-first{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* tomr finish the bottom side of the header */
