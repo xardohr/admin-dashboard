@@ -10,5 +10,38 @@ html{
 
 body{
     font-family: "Rubik", sans-serif;
+    /* background-color: #4a148c; */
+    background-color: rgb(236, 236, 236);
+    height: 100vh;
+}
+
+
+
+/* buttons */
+
+.btn{
     background-color: #4a148c;
+    color:#edede9;
+    padding: 1rem 2.5rem;
+    border-radius: 2rem;
+    transition: all 0.3s;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn:hover,
+.btn:active{
+    background-color: #9d4edd;
+    color:#fff;
+}
+.btn:active{
+    transform: translateY(3px);
+}
+
+.icon2{
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    cursor:pointer;
+    color: white;
 }
