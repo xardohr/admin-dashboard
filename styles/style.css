@@ -6,6 +6,9 @@
     height: 100vh;
 }
 
+ul{
+    cursor: pointer;
+}
 
 .header{
     background-color: #fff;
